@@ -23,7 +23,7 @@
             --brand-dark: #15aabf;
             --text-main: #2b2d42;
             --text-light: #6c757d;
-            --bg-glass: rgba(255, 255, 255, 0.6);
+            --bg-glass: rgba(228, 248, 255, 0.6);
             
             --font-editorial: 'Playfair Display', serif;
             --font-body: 'Outfit', sans-serif;
@@ -93,9 +93,9 @@
             transition: var(--transition-smooth);
             border-bottom: 1px solid rgba(255,255,255,0.3);
         }
-        .nav-scrolled { padding: 1rem 5%; background: rgba(255, 255, 255, 0.9); box-shadow: 0 4px 20px rgba(0,0,0,0.03); }
+        .nav-scrolled { padding: 1rem 5%; background: rgba(228, 248, 255, 0.9); box-shadow: 0 4px 20px rgba(0,0,0,0.03); }
         .nav-logo-container { display: flex; align-items: center; height: 40px; text-decoration: none; }
-        .nav-logo-img { max-height: 100%; max-width: 150px; object-fit: contain; }
+        .nav-logo-img { max-height: 200%; max-width: 1000px; object-fit: contain; }
         .nav-links { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
         .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; transition: color 0.3s;}
         .nav-links a:hover { color: var(--brand-primary); }
@@ -295,9 +295,9 @@
     <!-- Navigation -->
     <nav id="navbar">
         <a href="#hero" class="nav-logo-container">
-            <!-- UPLOAD LOGO HERE (Nav) -->
+            <img src="assets/logo.png" alt="Splash Cosmetics" class="nav-logo-img" style="width: 300px; height: auto;">
             <!-- Recommended Size: 150x40 PNG/SVG -->
-            <img src="logo-placeholder.png" alt="SPLASH Logo" class="nav-logo-img" onerror="this.outerHTML='<span style=\'font-family: var(--font-editorial); font-size: 1.8rem; font-weight: 600; color: var(--text-main); letter-spacing: 1px;\'>SPLASH</span>'">
+            <!-- img src="logo-placeholder.png" alt="SPLASH Logo" class="nav-logo-img" onerror="this.outerHTML='<span style=\'font-family: var(--font-editorial); font-size: 1.8rem; font-weight: 600; color: var(--text-main); letter-spacing: 1px;\'>SPLASH</span>'" -->
         </a>
         <ul class="nav-links">
             <li class="dropdown">
