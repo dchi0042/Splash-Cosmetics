@@ -152,7 +152,7 @@
         }
         .product-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.04); background: #ffffff; }
         .card-img-placeholder {
-            height: 280px; border-radius: 12px; margin-bottom: 2rem; display: flex; align-items: center; justify-content: center;
+            height: 280px; border-radius: 12px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;
             color: var(--text-light); font-size: 0.9rem; transition: transform 0.5s;
         }
         .product-card:hover .card-img-placeholder { transform: scale(1.05); }
@@ -178,7 +178,7 @@
         
         .product-render { 
             height: 700px; border-radius: 30px; display: flex; align-items: center; justify-content: center; 
-            position: relative; box-shadow: 0 30px 60px rgba(0,0,0,0.05); background: rgba(255,255,255,0.4);
+            position: relative; box-shadow: 0 30px 30px rgba(0,0,0,0.05); background: rgba(255,255,255,0.4);
             backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.6); flex-direction: column; text-align: center; padding: 2rem;
         }
         .render-comment { font-family: monospace; font-size: 0.85rem; color: rgba(0,0,0,0.4); margin-bottom: 1rem; max-width: 80%; background: rgba(255,255,255,0.5); padding: 1rem; border-radius: 8px;}
@@ -322,9 +322,9 @@
     <header id="hero">
         <canvas id="hero-canvas"></canvas>
         <div class="hero-content reveal">
-            <span class="hero-subtitle">Science for Swimmers. Protection Beyond the Pool.</span>
+            <span class="hero-subtitle">Haircare + Skincare = Swimcare</span>
             <h1>Built For Life In The Water</h1>
-            <p>Advanced skincare and haircare designed to protect, cleanse and repair after every swim. Formulated for the unique demands of aquatic athletes.</p>
+            <p>Advanced skincare and haircare designed to protect, cleanse and repair after every swim. Formulated for the unique demands of frequent swimmers.</p>
             <div class="hero-actions reveal delay-1">
                 <a href="#collection" class="btn btn-primary">Explore Collection</a>
                 <a href="#science" class="btn">Discover The Science</a>
@@ -344,14 +344,9 @@
                 <!-- Product 1 -->
                 <a href="#product-sunscreen" class="product-card card-sunscreen reveal delay-1">
                     <div class="card-img-placeholder">
-                        <!-- 
-                        UPLOAD PRODUCT RENDER HERE
-                        Product: SPLASH UV Shield SPF
-                        Recommended Size: 600x800 PNG
-                        -->
-                        <span>[ SPF Render ]</span>
+                        <img src="assets/Sunscreen.png" alt="The Splash Tideveil Sunscreen" class="card-img-placeholder" style="width: 300px; height: 300px;">
                     </div>
-                    <h3 class="card-title">UV Shield SPF</h3>
+                    <h3 class="card-title">The Splash Tideveil Sunscreen</h3>
                     <p class="card-desc">Broad-spectrum protection & hydration.</p>
                     <span class="explore-link">Explore Formula</span>
                 </a>
@@ -359,14 +354,9 @@
                 <!-- Product 2 -->
                 <a href="#product-shampoo" class="product-card card-shampoo reveal delay-2">
                     <div class="card-img-placeholder">
-                        <!-- 
-                        UPLOAD PRODUCT RENDER HERE
-                        Product: SPLASH Recovery Shampoo
-                        Recommended Size: 600x800 PNG
-                        -->
-                        <span>[ Shampoo Render ]</span>
+                        <img src="assets/Shampoo.png" alt="The Post-Swim Repair Shampoo" class="card-img-placeholder" style="width: 300px; height: 300px;">
                     </div>
-                    <h3 class="card-title">Recovery Shampoo</h3>
+                    <h3 class="card-title">The Post-Swim Repair Shampoo</h3>
                     <p class="card-desc">Chlorine & salt removal cleansing.</p>
                     <span class="explore-link">Explore Formula</span>
                 </a>
@@ -374,14 +364,9 @@
                 <!-- Product 3 -->
                 <a href="#product-conditioner" class="product-card card-conditioner reveal delay-1">
                     <div class="card-img-placeholder">
-                        <!-- 
-                        UPLOAD PRODUCT RENDER HERE
-                        Product: SPLASH Repair Conditioner
-                        Recommended Size: 600x800 PNG
-                        -->
-                        <span>[ Conditioner Render ]</span>
+                        <img src="assets/Conditioner.png" alt="The Post-Swim Recovery Conditioner" class="card-img-placeholder" style="width: 300px; height: 300px;">
                     </div>
-                    <h3 class="card-title">Repair Conditioner</h3>
+                    <h3 class="card-title">The Post-Swim Recovery Conditioner</h3>
                     <p class="card-desc">Detangles and restores smoothness.</p>
                     <span class="explore-link">Explore Formula</span>
                 </a>
@@ -389,29 +374,19 @@
                 <!-- Product 4 -->
                 <a href="#product-cleanser" class="product-card card-cleanser reveal delay-2">
                     <div class="card-img-placeholder">
-                        <!-- 
-                        UPLOAD PRODUCT RENDER HERE
-                        Product: SPLASH Barrier Cleanser
-                        Recommended Size: 600x800 PNG
-                        -->
-                        <span>[ Cleanser Render ]</span>
+                        <img src="assets/Cleanser.png" alt="The Post-Swim Cleanser" class="card-img-placeholder" style="width: 300px; height: 300px;">
                     </div>
-                    <h3 class="card-title">Barrier Cleanser</h3>
-                    <p class="card-desc">Soothes irritation & removes residue.</p>
+                    <h3 class="card-title">The Post-Swim Cleanser</h3>
+                    <p class="card-desc">Soothes & removes residue.</p>
                     <span class="explore-link">Explore Formula</span>
                 </a>
 
                 <!-- Product 5 -->
                 <a href="#product-serum" class="product-card card-serum reveal delay-1">
                     <div class="card-img-placeholder">
-                        <!-- 
-                        UPLOAD PRODUCT RENDER HERE
-                        Product: SPLASH Barrier Recovery Serum
-                        Recommended Size: 600x800 PNG
-                        -->
-                        <span>[ Serum Render ]</span>
+                        <img src="assets/Serum.png" alt="The Dewy Post-Swim Serum" class="card-img-placeholder" style="width: 300px; height: 300px;">
                     </div>
-                    <h3 class="card-title">Recovery Serum</h3>
+                    <h3 class="card-title">The Dewy Post-Swim Serum</h3>
                     <p class="card-desc">Barrier support and resilience.</p>
                     <span class="explore-link">Explore Formula</span>
                 </a>
@@ -419,15 +394,10 @@
                 <!-- Product 6 -->
                 <a href="#product-moisturiser" class="product-card card-moisturiser reveal delay-2">
                     <div class="card-img-placeholder">
-                        <!-- 
-                        UPLOAD PRODUCT RENDER HERE
-                        Product: SPLASH Microbiome Moisturiser
-                        Recommended Size: 600x800 PNG
-                        -->
-                        <span>[ Moisturiser Render ]</span>
+                        <img src="assets/Moisturiser.png" alt="The Nourishing Moisturiser" class="card-img-placeholder" style="width: 300px; height: 300px;">
                     </div>
-                    <h3 class="card-title">Microbiome Moisturiser</h3>
-                    <p class="card-desc">Long-lasting skin comfort.</p>
+                    <h3 class="card-title">The Nourishing Moisturiser</h3>
+                    <p class="card-desc">Rapid skin comfort.</p>
                     <span class="explore-link">Explore Formula</span>
                 </a>
             </div>
@@ -438,19 +408,11 @@
     <section id="product-sunscreen" class="product-section">
         <div class="container product-layout">
             <div class="product-render reveal">
-                <div class="render-comment">
-                    &lt;!--<br>
-                    UPLOAD PRODUCT RENDER HERE<br>
-                    Product: SPLASH UV Shield SPF<br>
-                    Packaging: Precision nozzle dropper<br>
-                    Recommended Size: 1200x1600 PNG<br>
-                    --&gt;
-                </div>
-                <div class="render-label">SPF Render Placeholder</div>
+                <img src="assets/Sunscreen.png" alt="Tideveil Sunscreen" class="product-render">
             </div>
             <div class="product-details reveal delay-1">
                 <span class="product-meta">Protect</span>
-                <h2>SPLASH UV Shield SPF</h2>
+                <h2>Tideveil Sunscreen</h2>
                 <p>A sophisticated broad-spectrum sunscreen engineered for high-exposure environments. It delivers anti-photoaging support and intense antioxidant protection while maintaining a lightweight, dry-touch finish.</p>
                 
                 <ul class="claims-list">
@@ -478,19 +440,11 @@
     <section id="product-shampoo" class="product-section">
         <div class="container product-layout">
             <div class="product-render reveal">
-                <div class="render-comment">
-                    &lt;!--<br>
-                    UPLOAD PRODUCT RENDER HERE<br>
-                    Product: SPLASH Recovery Shampoo<br>
-                    Packaging: Small squeeze bottle<br>
-                    Recommended Size: 1200x1600 PNG<br>
-                    --&gt;
-                </div>
-                <div class="render-label">Shampoo Render Placeholder</div>
+                <img src="assets/Shampoo.png" alt="The Post-Swim Repair Shampoo" class="product-render">
             </div>
             <div class="product-details reveal delay-1">
                 <span class="product-meta">Cleanse</span>
-                <h2>SPLASH Recovery Shampoo</h2>
+                <h2>The Post-Swim Repair Shampoo</h2>
                 <p>Performance cleansing formulated specifically for post-pool and ocean exposure. This targeted formula gently but effectively removes chlorine residue and salt build-up without stripping the hair's natural oils.</p>
                 
                 <ul class="claims-list">
@@ -516,19 +470,11 @@
     <section id="product-conditioner" class="product-section">
         <div class="container product-layout">
             <div class="product-render reveal">
-                <div class="render-comment">
-                    &lt;!--<br>
-                    UPLOAD PRODUCT RENDER HERE<br>
-                    Product: SPLASH Repair Conditioner<br>
-                    Packaging: Mini airless pump<br>
-                    Recommended Size: 1200x1600 PNG<br>
-                    --&gt;
-                </div>
-                <div class="render-label">Conditioner Render Placeholder</div>
+                <img src="assets/Conditioner.png" alt="The Post-Swim Recovery Conditioner" class="product-render">
             </div>
             <div class="product-details reveal delay-1">
                 <span class="product-meta">Repair</span>
-                <h2>SPLASH Repair Conditioner</h2>
+                <h2>The Post-Swim Recovery Conditioner</h2>
                 <p>An intensive conditioning treatment that targets hair cuticle damage caused by aquatic environments. It smooths roughened cuticles, restores manageability, and repairs structural damage.</p>
                 
                 <ul class="claims-list">
@@ -555,19 +501,11 @@
     <section id="product-cleanser" class="product-section">
         <div class="container product-layout">
             <div class="product-render reveal">
-                <div class="render-comment">
-                    &lt;!--<br>
-                    UPLOAD PRODUCT RENDER HERE<br>
-                    Product: SPLASH Barrier Cleanser<br>
-                    Packaging: Airless pump<br>
-                    Recommended Size: 1200x1600 PNG<br>
-                    --&gt;
-                </div>
-                <div class="render-label">Cleanser Render Placeholder</div>
+                <img src="assets/Cleanser.png" alt="The Post-Swim Cleanser" class="product-render">
             </div>
             <div class="product-details reveal delay-1">
                 <span class="product-meta">Cleanse</span>
-                <h2>SPLASH Barrier Cleanser</h2>
+                <h2>The Post-Swim Cleanser</h2>
                 <p>A sophisticated surfactant blend that thoroughly removes tenacious sunscreen and pool chemicals while actively supporting skin barrier recovery and soothing redness.</p>
                 
                 <ul class="claims-list">
@@ -595,24 +533,15 @@
     <section id="product-serum" class="product-section">
         <div class="container product-layout">
             <div class="product-render reveal">
-                <div class="render-comment">
-                    &lt;!--<br>
-                    UPLOAD PRODUCT RENDER HERE<br>
-                    Product: SPLASH Barrier Recovery Serum<br>
-                    Packaging: Airless pump<br>
-                    Recommended Size: 1200x1600 PNG<br>
-                    --&gt;
-                </div>
-                <div class="render-label">Serum Render Placeholder</div>
+                <img src="assets/Serum.png" alt="The Dewy Post-Swim Serum" class="product-render">
             </div>
             <div class="product-details reveal delay-1">
                 <span class="product-meta">Repair</span>
-                <h2>SPLASH Barrier Recovery Serum</h2>
+                <h2>The Dewy Post-Swim Serum</h2>
                 <p>A high-potency treatment designed to rebuild compromised skin architecture. By targeting trans-epidermal water loss (TEWL) and inflammation, it restores skin resilience.</p>
                 
                 <ul class="claims-list">
                     <li>Intensive Barrier Support</li>
-                    <li>Reduces Irritation</li>
                     <li>Improves Resilience</li>
                     <li>Enhances Hydration</li>
                 </ul>
@@ -631,25 +560,17 @@
     <section id="product-moisturiser" class="product-section">
         <div class="container product-layout">
             <div class="product-render reveal">
-                <div class="render-comment">
-                    &lt;!--<br>
-                    UPLOAD PRODUCT RENDER HERE<br>
-                    Product: SPLASH Microbiome Moisturiser<br>
-                    Packaging: Pump dispenser<br>
-                    Recommended Size: 1200x1600 PNG<br>
-                    --&gt;
-                </div>
-                <div class="render-label">Moisturiser Render Placeholder</div>
+                <img src="assets/Moisturiser.png" alt="The Nourishing Moiosturiser" class="product-render">
             </div>
             <div class="product-details reveal delay-1">
                 <span class="product-meta">Restore</span>
-                <h2>SPLASH Microbiome Moisturiser</h2>
+                <h2>The Nourishing Moisturiser</h2>
                 <p>A cutting-edge lipid replenishment cream that feeds the skin's beneficial flora. It utilizes bio-mimetic ceramides and prebiotics to ensure long-lasting comfort.</p>
                 
                 <ul class="claims-list">
                     <li>Barrier Repair</li>
                     <li>Microbiome Support</li>
-                    <li>Long-lasting Hydration</li>
+                    <li>pH Adjustment</li>
                     <li>Skin Comfort</li>
                 </ul>
 
@@ -657,7 +578,7 @@
                     <h4>Highlight Ingredients</h4>
                     <div class="ingredient-tags">
                         <span class="ingredient-tag">Inulin</span>
-                        <span class="ingredient-tag">Ceramide Complex</span>
+                        <span class="ingredient-tag">Ceramides</span>
                         <span class="ingredient-tag">Phospholipids</span>
                         <span class="ingredient-tag">Sphingolipids</span>
                     </div>
